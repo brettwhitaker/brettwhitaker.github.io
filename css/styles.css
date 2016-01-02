@@ -1,0 +1,159 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */img,legend{border:0}legend,td,th{padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+h1 { 
+    font-size: 46px;
+    line-height: 1.2;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0 0 30px;
+    text-align: center;
+    color: #c0c0c0;
+}
+
+p { 
+    margin: 0 0 30px 0; 
+}
+
+a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+a:hover {
+    color: #c0c0c0;
+}
+
+.center {
+    text-align: center;
+}
+
+.block-1,.fake-section {
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.social {
+    position: fixed;
+    right: 25px;
+    top: 0;
+    padding: 8px 0;
+}
+
+.social a {
+    color: #fff;
+    font-size: 30px;
+    transition: color .5s;
+    display: inline-block;
+    padding: 6px; 
+}
+
+.social a:hover {
+    color: #c0c0c0;
+}
+
+.block-1 .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container h1, .container h2, .container p {
+    max-width: 750px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .block-2 .container p {
+        text-align: justify;
+    }
+}
+.fake-section { z-index: -2; }
+
+.block-1 {
+    background: #004971 url(../images/bg2-m.png) center top no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    position: fixed;
+    z-index: -1;
+}
+
+@media (min-width: 901px) {
+    .block-1 {
+        background-image: url(../images/bg2.png);
+    }
+}
+
+@media (min-width: 1200px) {
+    .block-1 {
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+.block-1 h1 {
+    color: #c0c0c0;
+}
+
+.block-2 {
+    background: #026da2;
+    color: #fff;
+    margin-top: -113px;
+    padding-top: 143px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.bw-photo {
+    width: 225px;
+    height: 225px;
+    background: url(../images/bw.png) 0 0 no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    border: solid 10px #026da2;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: solid 2px #fff;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #0175af;
+}
+
+a.button:hover {
+    color: #c0c0c0;
+}
